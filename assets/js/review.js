@@ -11,6 +11,7 @@ var ready = function () {
     message = "Name: " + UName + "\nCountry: " + UCountry + "\nStars: " + UStars + "\nMessage:" + UMessage;
 };
 var review = function () {
+    document.getElementById('submit-message').innerText = 'Review submitted successfully!';
     ready();
     var settings = {
         "async": true,
